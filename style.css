@@ -1,0 +1,169 @@
+.main_content01 {
+    padding: 120px 0;
+}
+
+.main_content01 .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+}
+
+.main_content01 .tit h2 {
+    font-family: 'GmarketSans';
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.main_content01 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content01 .inner {
+    width: 1170px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.main_content01 .inner>* {
+    flex: 1;
+}
+
+.main_content02 {
+    padding: 120px 0;
+    background: #f9f9f9;
+}
+
+.main_content02 .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+}
+
+.main_content02 .tit h2 {
+    font-family: 'GmarketSans';
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.main_content02 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content02 .inner {
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.main_content02 .inner>* {
+    flex: 1;
+}
+
+.main_content03 {
+    padding: 120px 0;
+}
+
+.main_content03 .inner {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.main_content03 .inner>* {
+    flex: 1;
+}
+
+.main_content03 .tit {
+    padding: 8px 0 0 0;
+}
+
+.main_content03 .tit h2 {
+    font-family: 'GmarketSans';
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_content03 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content03 .right img {
+    border-radius: 16px;
+}
+
+.main_content04 {
+    padding: 120px 0;
+    background: #f9f9f9;
+}
+
+.main_content04 .inner {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.main_content04 .inner>* {
+    flex: 1;
+}
+
+.main_content04 .inner .desc {
+    order: -1;
+}
+
+.main_content04 .inner .desc img {
+    border-radius: 16px;
+}
+
+.main_content04 .tit {
+    padding: padding: 8px 0 0 0;
+}
+
+.main_content04 .tit h2 {
+    font-family: 'GmarketSans';
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_content04 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content05 {
+    padding: 120px 0;
+}
+
+.main_content05 .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+}
+
+.main_content05 .tit h2 {
+    font-family: 'GmarketSans';
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_content05 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content05 .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_content05 .inner>* {
+    flex: 1;
+}
