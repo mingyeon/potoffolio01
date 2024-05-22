@@ -1,178 +1,165 @@
-.inner {
-    max-width: 1170px;
-    margin: 0 auto;
+.main_content01 {
+    padding: 120px 0;
 }
 
-.header .inner {
-    display: flex;
-    align-items: center;
-    height: 100px;
+.main_content01 .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
 }
 
-.header .inner .gnb {
-    margin: 0 0 0 auto;
-}
-
-.header .inner .gnb ul {
-    display: flex;
-    gap: 40px;
-}
-
-.main-visual .main-visual-slide .itm {
-    height: 600px;
-}
-
-.main-visual .main-visual-slide .itm01 {
-    background: url(../images/slide_1.jpg) no-repeat center top/cover;
-}
-
-.main-visual .main-visual-slide .itm02 {
-    background: url(../images/slide_2.jpg) no-repeat center top/cover;
-}
-
-.main-visual .main-visual-slide .itm03 {
-    background: url(../images/slide_3.jpg) no-repeat center top/cover;
-}
-
-.main-visual .main-visual-slide .itm .desc {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    max-width: 1170px;
-    width: 100%;
-
-    transform: translate(-50%, -50%);
-}
-
-.main-visual .main-visual-slide .itm .desc strong {
-    display: block;
+.main_content01 .tit h2 {
+    font-family: 'GmarketSans';
+    font-size: 32px;
+    font-weight: 700;
     margin: 0 0 16px 0;
-    font-size: 40px;
-    font-weight: 800;
-    color: #fff;
 }
 
-.main-visual .main-visual-slide .itm .desc p {
-    display: block;
+.main_content01 .tit p {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
 }
 
-.main-visual .main-visual-slide .arrows {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 999;
-
-    transform: translate(-50%, -50%);
-
-    max-width: 1400px;
-    width: 100%;
-}
-
-.main-visual .main-visual-slide .arrows button {
-    position: absolute;
-    top: 0;
-
-    transform: translate(0, -50%);
-
-    background: transparent;
-    border: none;
-}
-
-.main-visual .main-visual-slide .arrows i {
-    font-size: 32px;
-    padding: 32px;
-    background: #ffffff80;
-    border-radius: 50%;
-
-    backdrop-filter: blur(4px);
-}
-
-.main-visual .main-visual-slide .arrows .prev {
-    left: 0;
-}
-
-.main-visual .main-visual-slide .arrows .next {
-    right: 0;
-}
-
-.main-visual .swiper .main-visual-slide .page {
-    position: absolute;
-    bottom: 80px;
-    left: 50%;
-    z-index: 999;
-
-    width: auto;
-
-    transform: translate(-50%, 0);
-}
-
-.service {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 80px 0;
-}
-
-.service .tit h2 {
-    text-align: center;
-    font-size: 28px;
-}
-
-.service .tit strong {
-    display: block;
-    text-align: center;
-    padding: 40px;
-}
-
-.service .tit p {
-    text-align: center;
-    color: #8f8f8f;
-}
-
-.service .inner {
+.main_content01 .inner {
+    width: 1170px;
     display: flex;
-    padding: 40px;
-    gap: 2px;
+    gap: 30px;
+    margin: 0 auto;
 }
 
-.service .inner figure {
-    position: relative;
+.main_content01 .inner>* {
     flex: 1;
 }
 
-.service .inner figure .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
+.main_content02 {
+    padding: 120px 0;
+    background: #f9f9f9;
+}
 
-    width: 100%;
+.main_content02 .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+}
 
-    height: 100%;
-    background: linear-gradient(to top, #333, transparent);
-    padding: 16px;
+.main_content02 .tit h2 {
+    font-family: 'GmarketSans';
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
 
+.main_content02 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content02 .inner {
+    width: 1170px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    margin: 0 auto;
+    gap: 30px;
 }
 
-.service .inner figure .cover strong {
-    display: block;
-    margin: 0 0 8px 0;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
+.main_content02 .inner>* {
+    flex: 1;
 }
 
-.service .inner figure .cover p {
-    font-size: 12px;
-    line-height: 20px;
-    color: #fff;
+.main_content03 {
+    padding: 120px 0;
 }
 
-.service .menu strong {
-    text-align: center;
+.main_content03 .inner {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.main_content03 .inner>* {
+    flex: 1;
+}
+
+.main_content03 .tit {
+    padding: 8px 0 0 0;
+}
+
+.main_content03 .tit h2 {
+    font-family: 'GmarketSans';
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_content03 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content03 .right img {
+    border-radius: 16px;
+}
+
+.main_content04 {
+    padding: 120px 0;
+    background: #f9f9f9;
+}
+
+.main_content04 .inner {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.main_content04 .inner>* {
+    flex: 1;
+}
+
+.main_content04 .inner .desc {
+    order: -1;
+}
+
+.main_content04 .inner .desc img {
+    border-radius: 16px;
+}
+
+.main_content04 .tit h2 {
+    font-family: 'GmarketSans';
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_content04 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content05 {
+    padding: 120px 0;
+}
+
+.main_content05 .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+}
+
+.main_content05 .tit h2 {
+    font-family: 'GmarketSans';
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main_content05 .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_content05 .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_content05 .inner>* {
+    flex: 1;
 }
