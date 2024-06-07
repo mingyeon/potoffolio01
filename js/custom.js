@@ -1,21 +1,19 @@
 $(function () {
-    $('.main_visual_slide').slick({
-        autoplay: true,
+    $('.main_visual_slide .itm').slick({
         arrows: false,
-        dots: true,
     });
 
-    $('.main_product_slide').slick({
-        slidesToShow: 4,
+    $('.main_visual .arrows .prev').on('click', function () {
+        $('.main_visual_slide .itm').slick('slickPrev')
+    });
+
+    $('.main_visual .arrows .next').on('click', function () {
+        $('.main_visual_slide .itm').slick('slickNext')
+    });
+
+    $('.main_product .itm').slick({
         arrows: false,
-        dots: true,
     });
 
-    $('.main_product .arrows .prev').on('click', function () {
-        $('.main_product_slide').slick('slickPrev')
-    });
-
-    $('.main_product .arrows .next').on('click', function () {
-        $('.main_product_slide').slick('slickNext')
-    });
 })
+
