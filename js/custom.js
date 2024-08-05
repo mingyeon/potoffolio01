@@ -1,6 +1,10 @@
 $(function () {
-    $(window).on('scroll', function (e) {
+    $('#header .lang>a').on('click', function (e) {
         e.preventDefault();
+        $(this).next().toggle();
+    });
+
+    $(window).on('scroll', function () {
         let sct = $(window).scrollTop();
         if (sct > 0) {
             $('#header').addClass('on')
@@ -9,43 +13,50 @@ $(function () {
         }
     });
 
-    $('#header .lang>a').on('click', function (e) {
-        e.preventDefault();
-        $('#header .lnk').toggle();
+    const mainVisualSlide = new Swiper('.mainVisualSlide', {
+        loop: true,
+        autoplay: true,
+        speed: 1000,
+
+        navigation: {
+            nextEl: '.mainVisual .arrows .next',
+            prevEl: '.mainVisual .arrows .prev'
+        }
     })
 
-    $(window).on('resize', function () {
-        $('#header #gnb').removeClass('on');
-        $('#header ').removeAttr('style')
+    $('.mainNews .tab_line button').on('click', function () {
+        let idx = $(this).index();
+        $('.mainNews .slide').eq(idx).addClass('on').siblings().removeClass('on');
+        $(this).addClass('on').siblings().removeClass('on');
     })
 
-    $('#header .mbtn').on('click', function () {
-        $(this).toggleClass('on');
-        $('#header #gnb').toggleClass('on');
-    })
+    const slide01 = new Swiper('.slide', {
+        loop: true,
+        slidesPerView: 4,
 
-    $('.main_product_slide').slick({
-        slidesToShow: 4,
-        arrows: false,
-
-        responsive: [
-            {
-                breakpoint: 500,
-                settings: {
-                    slidesToShow: 1,
-
-                }
-            }
-        ]
-    });
-
-    $('#main_product .arrows .prev').on('click', function () {
-        $('.main_product_slide').slick('slickPrev')
-    });
-
-    $('#main_product .arrows .next').on('click', function () {
-        $('.main_product_slide').slick('slickNext')
+        navigation: {
+            nextEl: '.mainNews .arrows01 .next',
+            prevEl: '.mainNews .arrows01 .prev'
+        }
     });
 
 
-})
+
+    const right_con = new Swiper('.right_con', {});
+
+    $('.mainNetwork .inner .right .right_tab button').on('click', function () {
+        let idx = $(this).index();
+        $(this).addClass('on').siblings().removeClass('on');
+        right_con.slideToLoop(idx)
+    })
+
+    $('.f_lnk').on('change', function () {
+        let lnk = $(this).val();
+        console.log(lnk);
+
+        if (lnk) {
+            window.open(lnk)
+        }
+    })
+
+});
